@@ -883,6 +883,23 @@ Some examples of what ends up in a mature `AGENTS.md`:
 - "When a scheduled job doesn't arrive, assume it's failing silently before assuming you missed it."
 - "AI will sometimes choose the nuclear option when you needed a scalpel. Slow down for irreversible actions."
 
+## Action Approvals for Destructive Operations
+
+By default, OpenClaw agents are fully autonomous — no confirmation prompts before deleting files, running shell commands, or moving things around. Add this to your `openclaw.json` to require explicit approval before anything destructive runs:
+
+\```json
+{
+  "security": {
+    "actionApproval": {
+      "required": ["email.delete", "email.move", "file.delete", "shell.exec"],
+      "timeout": 120
+    }
+  }
+}
+\```
+
+The agent messages you and waits up to 2 minutes for a yes or no. No response cancels the action. Start with this on from day one — you can always loosen it once you trust how your agent handles things.
+
 ---
 
 ## When Things Break
