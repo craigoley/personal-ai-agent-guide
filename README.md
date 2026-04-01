@@ -4,7 +4,7 @@
 
 ---
 
-This is the companion guide to [*The Era of Personalized Software Is Here*](https://medium.com/@craigoley). It walks through the full stack: a Mac mini running an AI agent that updates you throughout the day, talks to you via iMessage, and powers a native iOS app you build with Claude Code.
+This is the companion guide to [*The Age of Personalized Software*](https://medium.com/p/94ab0154b928). It walks through the full stack: a Mac mini running an AI agent that updates you throughout the day, talks to you via iMessage, and powers a native iOS app you build with Claude Code.
 
 The result is a personal AI system that costs about $5–10/month, runs continuously, and does what you actually want — because you built it.
 
@@ -1066,4 +1066,4 @@ If you build your own version and run into something not covered here — a fail
 
 ---
 
-*Built by Craig Oley. Companion post: [The Age of Personalized Software]([https://medium.com/p/94ab0154b928])*
+*Built by Craig Oley. Companion post: [*The Age of Personalized Software*](https://medium.com/p/94ab0154b928)
