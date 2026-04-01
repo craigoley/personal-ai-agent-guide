@@ -1066,4 +1066,4 @@ If you build your own version and run into something not covered here — a fail
 
 ---
 
-*Built by Craig Oley. Companion post: [The Era of Personalized Software Is Here](https://medium.com/@craigoley)*
+*Built by Craig Oley. Companion post: [The Age of Personalized Software]([https://medium.com/@craigoley](https://medium.com/p/94ab0154b928))*
